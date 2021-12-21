@@ -15,9 +15,9 @@ class MainProject(models.Model):
   type = models.CharField(max_length=200)
   
   
-class User(AbstractUser):
-   username = None
-    email = models.EmailField(_('email address'), unique=True)
+# class User(AbstractUser):
+#    username = None
+#     email = models.EmailField(_('email address'), unique=True)
 
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = []
+#     USERNAME_FIELD = 'email'
+#     REQUIRED_FIELDS = []
